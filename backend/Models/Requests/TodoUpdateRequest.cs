@@ -1,0 +1,7 @@
+namespace TodoApi.Models.Requests;
+
+public class TodoUpdateRequest
+{
+    public string? Title { get; set; }
+    public bool? IsCompleted { get; set; }
+}
