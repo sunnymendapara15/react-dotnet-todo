@@ -1,0 +1,33 @@
+# .NET
+bin/
+obj/
+*.db
+*.mdf
+*.ldf
+*.log
+.vscode/
+
+# Node
+node_modules/
+dist/
+.vite/
+.env.local
+.env.*.local
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# IDE files
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Misc
+*.swp
+.DS_Store
+.sqlproj.user
